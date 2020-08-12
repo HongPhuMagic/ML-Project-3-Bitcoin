@@ -6,7 +6,7 @@ I have yet to reach to a conclusion due to my limited knowledge of ARIMA. I plan
 
 #### Project Goal
 
-The goal of this project is to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear modell and rNN. 
+The goal of this project is to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and rNN. 
 One thing to note is that; bitcoin is known to be very manipulative so I don't expect my model to perform well. 
 
 #### Data Source
