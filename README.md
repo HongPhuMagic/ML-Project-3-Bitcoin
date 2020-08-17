@@ -2,7 +2,7 @@
 
 #### Conclusion
 
-I have yet to reach to a conclusion due to my limited knowledge of ARIMA. I plan on eventually finishing this project as soon as I have gain more knowledge. I will also use rNN as an alternative model to predict bitcoin prices!
+I have yet to reach to a conclusion due to my limited knowledge of ARIMA. I plan on eventually finishing this project as soon as I have gain more knowledge. I however, finished using rNN as an alternative model to predict bitcoin prices!
 
 #### Project Goal
 
