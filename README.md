@@ -1,4 +1,4 @@
-## ML-Project-2-Bitcoin
+## ML-Project-3-Bitcoin
 
 #### Conclusion
 
