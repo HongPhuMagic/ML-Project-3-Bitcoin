@@ -2,11 +2,17 @@
 
 #### Conclusion
 
-I have yet to reach to a conclusion due to my limited knowledge of ARIMA. I plan on eventually finishing this project as soon as I have gain more knowledge. I however, finished using rNN as an alternative model to predict bitcoin prices!
+I completed my RNN model to predict bitcoin prices! However, the performance was poor which could be due to many reasons. So it's clear that this model wasn't able to forecast bitcoin's price and this was expected. As the model tries to forecast further into the future, the errors that it may picked up while trying to forecasting will be magnified the further we try to forecast because the model will be forecasting the forecast.
+
+![](Pictures/bt.JPG)
+
+I have yet to finish this project due to my limited knowledge of ARIMA. I plan on eventually finishing this project as soon as I have gain more knowledge. 
+
+Bitcoin is a very volatile and manipulated asset. Predicting bitcoin's price from history data will not be enough to predict bitcoin prices. 
 
 #### Project Goal
 
-The goal of this project is to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and rNN. 
+The goal of this project is to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and RNN. 
 One thing to note is that; bitcoin is known to be very manipulative so I don't expect my model to perform well. 
 
 #### Data Source
