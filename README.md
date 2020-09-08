@@ -8,7 +8,7 @@ One thing to note is that; bitcoin is known to be very manipulated so I did not 
 
 #### Conclusion
 
-I have completed my RNN model to predict bitcoin prices. However, the performance was poor which could be due to many reasons. So it was clear that this model was not able to forecast bitcoin's prices which I had expected. As the model tried to forecast further into the future, the errors that it may picked up while trying to forecasting will be magnified the further we try to forecast because the model will be forecasting the forecast. 
+I have completed my RNN model to predict bitcoin prices. However, the performance was poor which could be due to many reasons. So it was clear that this model was not able to forecast bitcoin's prices which I had expected. As the model tried to forecast further into the future, the errors that it may pick up while trying to forecasting will be magnified the further we try to forecast. This because the model will be forecasting the forecast.
 
 ![](Pictures/bt.JPG)
 
