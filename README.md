@@ -1,14 +1,22 @@
-# ML-Project-3-Bitcoin
+ # ML-Project-3-Bitcoin
 
 
 #### Project Goal
 
-The goal of this project was to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and RNN. 
+The goal of this project was to predict bitcoin (btc) prices using RNN. 
 One thing to note is that; bitcoin is known to be very manipulated so I did not expect my model to perform well. 
 
 #### Conclusion
 
-I have completed my RNN model to predict bitcoin prices. However, the performance was poor which could be due to many reasons. So it was clear that this model was not able to forecast bitcoin's prices which I had expected. As the model tried to forecast further into the future, the errors that it may pick up while trying to forecasting will be magnified the further we try to forecast. This because the model will be forecasting the forecast.
+In this project, I've built two different RNN model; 
+* RNN **with** Time Series Generator
+    * MAE: 4391.883080729166
+    * RMSE: 4843.591831369923
+* RNN **without** Time Series Generator
+    * MAE: 393.66248145318184
+    * RMSE: 462.76183224572395
+
+The RNN model with the time series generator had better performance than the RNN model without time series generator. By using RNN model with time series generator, as the model tries to forecast further into the future, the errors that it may picked up while trying to forecast will be magnified the further we try to forecast because the model will be forecasting the forecast. Fortunately the testset had only 10 timestamp but, if we do decide to forcast even furthur, we will notice the performance drop the further we forcast.
 
 ![](Pictures/bt.JPG)
 
