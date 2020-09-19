@@ -12,18 +12,18 @@ One thing to note is that; bitcoin is known to be very manipulated so I did not 
 
 In this project, I've built two different RNN model; 
 * RNN **without** Time Series Generator
-    * MAE: 4391.883080729166
-    * RMSE: 4843.591831369923
+    * MAE: 4391.88
+    * RMSE: 4843.59
 * RNN **with** Time Series Generator
-    * MAE: 603.497780936719
-    * RMSE: 694.6163794687727
+    * MAE: 603.50
+    * RMSE: 694.61
 
 ![](Pictures/test.JPG)
 
 The RNN model with the time series generator had better performance than the RNN model without time series generator. So I used the RNN model with the generator to forecast into the unknown.
-
-By using RNN model with time series generator, as the model tries to forecast further into the future, the errors that it may picked up while trying to forecast will be magnified the further we try to forecast because the model will be forecasting the forecasted. Fortunately the testset had only 10 timestamp but, if we do decide to forcast even furthur, we will notice the performance drop the further we forcast.
-
+    
+By using RNN model with time series generator, as the model tries to forecast further into the future, the errors that it may picked up while trying to forecast will be magnified the further we try to forecast because the model will be forecasting the forecasted. Fortunately the testset had only 10 timestamp but, if we do decide to forecast even further, we will notice the performance drop the further we forecast.
+    
 Bitcoin is a very volatile and manipulated asset. Predicting bitcoin's price from past history's data might not be enough.
 
 #### Data Source
