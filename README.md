@@ -10,6 +10,8 @@ One thing to note is that; bitcoin is known to be very manipulated so I did not 
 
 #### Conclusion
 
+Built Recurrent Neural Net with LSTM cells predicted Bitcoin’s price decrease of 8% in the next 20 days from 08/08/2020, forecasted 20 days into the unknown (model performance metric is MAE: 603.5 & RMSE: 694.61)
+
 In this project, I've built two different RNN model; 
 * RNN **without** Time Series Generator
     * MAE: 4391.88
